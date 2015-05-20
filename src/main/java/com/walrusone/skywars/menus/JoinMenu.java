@@ -18,7 +18,7 @@ import com.walrusone.skywars.utilities.Messaging;
 public class JoinMenu {
 
 	private static final int menuSlotsPerRow = 9;
-	private static final int menuSize = 81;
+	private static final int menuSize = 27;
 	private static final String joinName = new Messaging.MessageFormatter().format("menu.joingame-menu-title");
 	
     public JoinMenu(final GamePlayer gamePlayer) {
